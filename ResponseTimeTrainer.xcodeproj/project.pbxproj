@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD9D56F29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DBD9D56E29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBD9D57429BD3B5900C8A6FA /* ResponseTimeTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9D57329BD3B5900C8A6FA /* ResponseTimeTrainerApp.swift */; };
+		DBD9D57629BD3B5900C8A6FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9D57529BD3B5900C8A6FA /* ContentView.swift */; };
+		DBD9D57829BD3B5900C8A6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD9D57729BD3B5900C8A6FA /* Assets.xcassets */; };
+		DBD9D57B29BD3B5900C8A6FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD9D57A29BD3B5900C8A6FA /* Preview Assets.xcassets */; };
+		DBD9D58529BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9D58429BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppTests.swift */; };
+		DBD9D58F29BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9D58E29BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITests.swift */; };
+		DBD9D59129BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9D59029BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD9D57029BD3B5900C8A6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD9D56229BD3B5900C8A6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD9D56D29BD3B5900C8A6FA;
+			remoteInfo = "ResponseTimeTrainer Watch App";
+		};
+		DBD9D58129BD3B5900C8A6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD9D56229BD3B5900C8A6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD9D56D29BD3B5900C8A6FA;
+			remoteInfo = "ResponseTimeTrainer Watch App";
+		};
+		DBD9D58B29BD3B5900C8A6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD9D56229BD3B5900C8A6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD9D56D29BD3B5900C8A6FA;
+			remoteInfo = "ResponseTimeTrainer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBD9D59729BD3B5900C8A6FA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DBD9D56F29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBD9D56829BD3B5900C8A6FA /* ResponseTimeTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponseTimeTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD9D56E29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ResponseTimeTrainer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD9D57329BD3B5900C8A6FA /* ResponseTimeTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTimeTrainerApp.swift; sourceTree = "<group>"; };
+		DBD9D57529BD3B5900C8A6FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBD9D57729BD3B5900C8A6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD9D57A29BD3B5900C8A6FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBD9D58029BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ResponseTimeTrainer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD9D58429BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTimeTrainer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DBD9D58A29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ResponseTimeTrainer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD9D58E29BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTimeTrainer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DBD9D59029BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTimeTrainer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD9D56B29BD3B5900C8A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D57D29BD3B5900C8A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D58729BD3B5900C8A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD9D56129BD3B5900C8A6FA = {
+			isa = PBXGroup;
+			children = (
+				DBD9D57229BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */,
+				DBD9D58329BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests */,
+				DBD9D58D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests */,
+				DBD9D56929BD3B5900C8A6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD9D56929BD3B5900C8A6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9D56829BD3B5900C8A6FA /* ResponseTimeTrainer.app */,
+				DBD9D56E29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App.app */,
+				DBD9D58029BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests.xctest */,
+				DBD9D58A29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD9D57229BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9D57329BD3B5900C8A6FA /* ResponseTimeTrainerApp.swift */,
+				DBD9D57529BD3B5900C8A6FA /* ContentView.swift */,
+				DBD9D57729BD3B5900C8A6FA /* Assets.xcassets */,
+				DBD9D57929BD3B5900C8A6FA /* Preview Content */,
+			);
+			path = "ResponseTimeTrainer Watch App";
+			sourceTree = "<group>";
+		};
+		DBD9D57929BD3B5900C8A6FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9D57A29BD3B5900C8A6FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBD9D58329BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9D58429BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppTests.swift */,
+			);
+			path = "ResponseTimeTrainer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DBD9D58D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9D58E29BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITests.swift */,
+				DBD9D59029BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ResponseTimeTrainer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD9D56729BD3B5900C8A6FA /* ResponseTimeTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD9D59829BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer" */;
+			buildPhases = (
+				DBD9D56629BD3B5900C8A6FA /* Resources */,
+				DBD9D59729BD3B5900C8A6FA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD9D57129BD3B5900C8A6FA /* PBXTargetDependency */,
+			);
+			name = ResponseTimeTrainer;
+			productName = ResponseTimeTrainer;
+			productReference = DBD9D56829BD3B5900C8A6FA /* ResponseTimeTrainer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DBD9D56D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD9D59429BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer Watch App" */;
+			buildPhases = (
+				DBD9D56A29BD3B5900C8A6FA /* Sources */,
+				DBD9D56B29BD3B5900C8A6FA /* Frameworks */,
+				DBD9D56C29BD3B5900C8A6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ResponseTimeTrainer Watch App";
+			productName = "ResponseTimeTrainer Watch App";
+			productReference = DBD9D56E29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD9D57F29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD9D59B29BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer Watch AppTests" */;
+			buildPhases = (
+				DBD9D57C29BD3B5900C8A6FA /* Sources */,
+				DBD9D57D29BD3B5900C8A6FA /* Frameworks */,
+				DBD9D57E29BD3B5900C8A6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD9D58229BD3B5900C8A6FA /* PBXTargetDependency */,
+			);
+			name = "ResponseTimeTrainer Watch AppTests";
+			productName = "ResponseTimeTrainer Watch AppTests";
+			productReference = DBD9D58029BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBD9D58929BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD9D59E29BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer Watch AppUITests" */;
+			buildPhases = (
+				DBD9D58629BD3B5900C8A6FA /* Sources */,
+				DBD9D58729BD3B5900C8A6FA /* Frameworks */,
+				DBD9D58829BD3B5900C8A6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD9D58C29BD3B5900C8A6FA /* PBXTargetDependency */,
+			);
+			name = "ResponseTimeTrainer Watch AppUITests";
+			productName = "ResponseTimeTrainer Watch AppUITests";
+			productReference = DBD9D58A29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD9D56229BD3B5900C8A6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DBD9D56729BD3B5900C8A6FA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DBD9D56D29BD3B5900C8A6FA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DBD9D57F29BD3B5900C8A6FA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DBD9D56D29BD3B5900C8A6FA;
+					};
+					DBD9D58929BD3B5900C8A6FA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DBD9D56D29BD3B5900C8A6FA;
+					};
+				};
+			};
+			buildConfigurationList = DBD9D56529BD3B5900C8A6FA /* Build configuration list for PBXProject "ResponseTimeTrainer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD9D56129BD3B5900C8A6FA;
+			productRefGroup = DBD9D56929BD3B5900C8A6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD9D56729BD3B5900C8A6FA /* ResponseTimeTrainer */,
+				DBD9D56D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */,
+				DBD9D57F29BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppTests */,
+				DBD9D58929BD3B5900C8A6FA /* ResponseTimeTrainer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD9D56629BD3B5900C8A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D56C29BD3B5900C8A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD9D57B29BD3B5900C8A6FA /* Preview Assets.xcassets in Resources */,
+				DBD9D57829BD3B5900C8A6FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D57E29BD3B5900C8A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D58829BD3B5900C8A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD9D56A29BD3B5900C8A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD9D57629BD3B5900C8A6FA /* ContentView.swift in Sources */,
+				DBD9D57429BD3B5900C8A6FA /* ResponseTimeTrainerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D57C29BD3B5900C8A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD9D58529BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD9D58629BD3B5900C8A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD9D59129BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITestsLaunchTests.swift in Sources */,
+				DBD9D58F29BD3B5900C8A6FA /* ResponseTimeTrainer_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD9D57129BD3B5900C8A6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD9D56D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */;
+			targetProxy = DBD9D57029BD3B5900C8A6FA /* PBXContainerItemProxy */;
+		};
+		DBD9D58229BD3B5900C8A6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD9D56D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */;
+			targetProxy = DBD9D58129BD3B5900C8A6FA /* PBXContainerItemProxy */;
+		};
+		DBD9D58C29BD3B5900C8A6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD9D56D29BD3B5900C8A6FA /* ResponseTimeTrainer Watch App */;
+			targetProxy = DBD9D58B29BD3B5900C8A6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBD9D59229BD3B5900C8A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD9D59329BD3B5900C8A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DBD9D59529BD3B5900C8A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ResponseTimeTrainer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FBJ5Y6U88H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ResponseTimeTrainer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SparkMindBody.ResponseTimeTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DBD9D59629BD3B5900C8A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ResponseTimeTrainer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FBJ5Y6U88H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ResponseTimeTrainer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SparkMindBody.ResponseTimeTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		DBD9D59929BD3B5900C8A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBJ5Y6U88H;
+				INFOPLIST_KEY_CFBundleDisplayName = ResponseTimeTrainer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SparkMindBody.ResponseTimeTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+			};
+			name = Debug;
+		};
+		DBD9D59A29BD3B5900C8A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBJ5Y6U88H;
+				INFOPLIST_KEY_CFBundleDisplayName = ResponseTimeTrainer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SparkMindBody.ResponseTimeTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD9D59C29BD3B5900C8A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkMindBody.ResponseTimeTrainer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponseTimeTrainer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResponseTimeTrainer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DBD9D59D29BD3B5900C8A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkMindBody.ResponseTimeTrainer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponseTimeTrainer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResponseTimeTrainer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		DBD9D59F29BD3B5900C8A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkMindBody.ResponseTimeTrainer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ResponseTimeTrainer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DBD9D5A029BD3B5900C8A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkMindBody.ResponseTimeTrainer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ResponseTimeTrainer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD9D56529BD3B5900C8A6FA /* Build configuration list for PBXProject "ResponseTimeTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD9D59229BD3B5900C8A6FA /* Debug */,
+				DBD9D59329BD3B5900C8A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD9D59429BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD9D59529BD3B5900C8A6FA /* Debug */,
+				DBD9D59629BD3B5900C8A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD9D59829BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD9D59929BD3B5900C8A6FA /* Debug */,
+				DBD9D59A29BD3B5900C8A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD9D59B29BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD9D59C29BD3B5900C8A6FA /* Debug */,
+				DBD9D59D29BD3B5900C8A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD9D59E29BD3B5900C8A6FA /* Build configuration list for PBXNativeTarget "ResponseTimeTrainer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD9D59F29BD3B5900C8A6FA /* Debug */,
+				DBD9D5A029BD3B5900C8A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD9D56229BD3B5900C8A6FA /* Project object */;
+}
